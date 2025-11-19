@@ -4,8 +4,15 @@ This repo helps as a reference to wire this components into a raspberry pi zero,
 
 The project uses the [fbcp-ili9341](https://github.com/juj/fbcp-ili9341) driver for the ILI9341 screen. Consequently, it will not work on a Raspberry Pi 5, which uses a different display driver.
 
+Was used with debian based os, with kernel: Linux 5.10.103+
+
 The audio MAX98357A is Mono, if you need stereo 2 boards must be used, you need to check how to wire them.
 
 The main purpose of this setup is get alive 80s small tv devices (for example a Casio TV-6500), where only a raspberry pi zero can fit.
 
 ![Main diagram](wiring.png)
+
+
+## DEMO:
+
+![Demo](demo.png)
